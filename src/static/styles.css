@@ -1,3 +1,63 @@
+/* Participants section styling */
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: linear-gradient(90deg, #e3f2fd 0%, #f9fbe7 100%);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(33, 150, 243, 0.08);
+}
+
+.participants-section strong {
+  color: #1976d2;
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.participants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.participant-item {
+  background: #fff;
+  border: 1px solid #b3e5fc;
+  border-radius: 20px;
+  padding: 6px 14px 6px 10px;
+  font-size: 14px;
+  color: #1976d2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(33, 150, 243, 0.07);
+  transition: box-shadow 0.2s;
+}
+
+.participant-item:hover {
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.15);
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.delete-participant:hover {
+  background: #ffcdd2;
+}
+
+.no-participants {
+  color: #757575;
+  font-style: italic;
+  margin-top: 6px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
